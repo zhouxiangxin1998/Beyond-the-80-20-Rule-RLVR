@@ -1,6 +1,7 @@
+#!/usr/bin/env bash
+
 # Adapted from recipe/dapo/run_dapo_qwen2.5_32b.sh, keeping almost all the hyperparameters of recipe/dapo/run_dapo_qwen2.5_32b.sh
 
-#!/usr/bin/env bash
 set -xeuo pipefail
 
 project_name='DAPO'
