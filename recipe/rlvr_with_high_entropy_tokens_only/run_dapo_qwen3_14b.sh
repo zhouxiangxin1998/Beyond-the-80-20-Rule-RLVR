@@ -4,6 +4,8 @@
 
 set -xeuo pipefail
 
+python3 -m pip install --upgrade wandb  # Used for the recommended docker image
+
 project_name='DAPO'
 exp_name='RLVR-with-full-tokens-Qwen3-14B'
 
