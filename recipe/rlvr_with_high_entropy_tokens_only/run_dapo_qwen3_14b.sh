@@ -131,6 +131,6 @@ ray job submit --no-wait --runtime-env="${RUNTIME_ENV}" \
     trainer.val_before_train=True \
     trainer.test_freq=5 \
     trainer.save_freq=5 \
-    trainer.total_epochs=1 \
+    trainer.total_epochs=30 \
     trainer.default_local_dir="${CKPTS_DIR}" \
     trainer.resume_mode=auto

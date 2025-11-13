@@ -31,7 +31,9 @@ For the training dataset, we recommend using the [math dataset](https://huggingf
 
 For the test dataset, we followed the original setup of [DAPO](https://arxiv.org/abs/2503.14476).
 
-You can use the script [recipe/rlvr_with_high_entropy_tokens_only/prepare_train_test_datasets.sh](recipe/rlvr_with_high_entropy_tokens_only/prepare_train_test_datasets.sh) to prepare the training and test datasets.
+To align the format of the training dataset with the test dataset, we provide [recipe/rlvr_with_high_entropy_tokens_only/transfer_dataset.py](recipe/rlvr_with_high_entropy_tokens_only/transfer_dataset.py) to convert the training dataset file.
+
+In summary, you can use the script [recipe/rlvr_with_high_entropy_tokens_only/prepare_train_test_datasets.sh](recipe/rlvr_with_high_entropy_tokens_only/prepare_train_test_datasets.sh) to prepare the training and test datasets.
 
 ## Model Preparation
 
